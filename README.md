@@ -13,13 +13,14 @@ Authentication is required for all API requests. You'll need to include an API k
 
 ## Endpoints
 
-### For users endpoints
+### FOR USER ENDPOINTS
 
 #### Send OTP for user registration
 POST ` /api/user/send-otp `
 | key | value | 
 | -------- | -------- |
 | email    | your email here     |
+
 
 #### user registration
 POST ` /api/user/register-user `
@@ -29,11 +30,13 @@ POST ` /api/user/register-user `
 | otp    | the otp generated here    |
 
 
+
 #### user Login OTP
 POST ` /api/user/send-passcode `
 | key | value | 
 | -------- | -------- |
 | email    | your email here     |
+
 
 
 #### user Login 
@@ -45,18 +48,27 @@ POST ` api/user/login `
 | otp    | the otp generated here    |
 
 
-### For file 
+
+
+
+### FOR FILE ENDPOINTS
+
+
 ### To generate API key
  POST ` /api/v1/file/generate-apikey ` 
 
+
 ### for image upload
  POST ` /api/v1/file/upload  ` 
+ 
 
 ### To get single image 
  POST ` /api/v1/file/:id ` 
+ 
 
 ### To get all user image file
  GET ` /api/v1/file ` 
+ 
 
 ### To delete an image 
  DELETE ` /api/v1/file/:id ` 
