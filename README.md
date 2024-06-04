@@ -59,7 +59,19 @@ POST ` api/user/login `
 
 
 ### for image upload
- POST ` /api/v1/file/upload  ` 
+ POST ` /api/v1/file/upload  `
+
+ | key | value | 
+| -------- | -------- |
+| apiKey   | your apiKey here..     |
+
+
+for image upload
+| key | value | 
+| -------- | -------- |
+| image   | file here ..    |
+
+
  
 
 ### To get single image 
